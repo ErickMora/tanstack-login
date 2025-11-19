@@ -5,8 +5,11 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "start-basic-auth",
-	"main": "src/index.js",
+	"main": "@tanstack/react-start/server-entry",	
 	"compatibility_date": "2025-11-17",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
 	"observability": {
 		"enabled": true
 	}
