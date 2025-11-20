@@ -5,9 +5,9 @@ import viteReact from '@vitejs/plugin-react'
 import { cloudflare } from '@cloudflare/vite-plugin'
 
 export default defineConfig({
-  server: {
+  /*server: {
     port: 3000,
-  },
+  },*/
   plugins: [
     cloudflare({ viteEnvironment: { name: 'ssr' } }),
     tsConfigPaths({
